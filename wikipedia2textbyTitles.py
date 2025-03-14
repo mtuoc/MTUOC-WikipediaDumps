@@ -32,7 +32,6 @@ parser.add_argument('-t','--titlesfile', action="store", dest="titlesfile", help
 args = parser.parse_args()
 dump_path = args.dump_path
 language = args.language
-categoriesfile=args.categories
 outdir=args.outdir
 titlesfile=args.titlesfile
 
